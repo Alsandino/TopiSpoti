@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'TopiSpoti',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       routes: {
         '/': (context) => StartPage(),
@@ -23,8 +23,5 @@ class MyApp extends StatelessWidget {
         '/second': (context) => ResultsPage(),
       },
     );
-
   }
 }
-
-
